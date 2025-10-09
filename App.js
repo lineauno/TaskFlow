@@ -1,3 +1,4 @@
+HEAD;
 // src/App.js (modified by Task 3 developer)
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -52,5 +53,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
