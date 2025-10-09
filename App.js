@@ -1,13 +1,12 @@
-HEAD;
 // src/App.js (modified by Task 3 developer)
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { v4 as uuidv4 } from "uuid"; // Import uuid
 
-import Header from "./components/Header/Header";
-import TaskListView from "./components/TaskListView/TaskListView";
-import AddTaskView from "./components/AddTaskView/AddTaskView";
+import Header from "./components/Header";
+import TaskListView from "./components/TaskListView";
+import AddTaskView from "./components/AddTaskView";
 
 function App() {
   // Global state for the list of tasks
@@ -53,3 +52,5 @@ function App() {
     </Router>
   );
 }
+
+export default App;
