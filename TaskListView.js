@@ -1,6 +1,6 @@
 import React from "react";
 import { Table, Button, Card } from "react-bootstrap";
-//Charles Darwin Navalta
+//Navalta, Charles Darwin
 const TaskListView = ({ tasks, deleteTask }) => {
   return (
     <>
